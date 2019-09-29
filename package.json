@@ -12,6 +12,7 @@
   "author": "karim",
   "license": "MIT",
   "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^7.1.2",

@@ -1,4 +1,14 @@
 {
-    "presets": ["env"],
-    "retainLines": true
+  "presets": [
+    ["@babel/preset-env"]
+  ],
+  "retainLines": true,
+  "plugins": [
+    [
+      "@babel/plugin-transform-modules-commonjs",
+      {
+        "allowTopLevelThis": true
+      }
+    ]
+  ]
 }
